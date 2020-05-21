@@ -1,0 +1,76 @@
+.ui-container {
+  background-color: hsla(hue, saturation, lightness, alpha);
+  font-size: 24px;
+  font-family: lato;
+  color: goldenrod;
+  text-align: center;
+  margin-top: 20px;
+  margin: 100px 10px 50px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.ui-container-card {
+  padding: 150px 10px;
+  margin: 50px 20px;
+}
+
+.ui-container-logo {
+  margin-top: 30px;
+  display: inline-block;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-gap: 5px;
+}
+.ui-container-github {
+  background: black;
+  margin-bottom: 20px;
+}
+.ui-container-linkedin {
+  width: 120px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.ui-container-twitter {
+  width: 120px;
+  height: 100px;
+}
+.ui-container-button {
+  color: gold;
+  margin-top: 60px;
+  border-color: red;
+}
+.ui-aboutMe-button {
+  border-radius: 15%;
+  font-style: italic;
+}
+.ui-resume-button {
+  margin-left: 20px;
+  border-radius: 15%;
+  font-style: italic;
+}
+
+.ui-container-footer {
+  color: goldenrod;
+  margin: 10px 20px 20px 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.ui-container-footer-paragraph {
+  color: silver;
+}
+.h1 {
+  color: white;
+}
+.h2 {
+  color: white;
+}
+.h3 {
+  color: gold;
+}
+img {
+  border-radius: 30%;
+}
+body {
+  background: black;
+  border-width: 0px 5px 0px 5px;
+  border-color: gold;
+}
