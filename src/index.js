@@ -7,12 +7,10 @@ const App = () => {
   return (
     <div>
       <div className="ui-container">
-        <img src={faker.image.avatar()} alt="a person"></img>
-        <h1>
-          {faker.name.findName} {faker.name.lastName}
-        </h1>
-        <h5>Software Engineer</h5>
-
+        <img src="profile-picture.png" alt="a person"></img>
+        <h1>Misgana Gebremariam</h1>
+        <h5>Computer Science</h5>
+        <h4>Arizona State University</h4>
         <div className="ui-container-button">
           <button className="ui-aboutMe-button">
             <a href="">About.me</a>
