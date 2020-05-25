@@ -7,7 +7,12 @@ const App = () => {
   return (
     <div>
       <div className="ui-container">
-        <img src="profile-picture.png" alt="a person"></img>
+        <img
+          src="profile-picture.png"
+          height="50%"
+          width="50%"
+          alt="a person"
+        ></img>
         <h1>Misgana Gebremariam</h1>
         <h5>Computer Science</h5>
         <h4>Arizona State University</h4>
