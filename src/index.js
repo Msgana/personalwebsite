@@ -9,31 +9,39 @@ const App = () => {
       <div className="ui-container">
         <img src={faker.image.avatar()} alt="a person"></img>
         <h1>
-          {faker.name.findName()} {faker.name.lastName()}
+          {faker.name.findName} {faker.name.lastName}
         </h1>
-        <h5>{faker.name.jobTitle()}</h5>
+        <h5>Software Engineer</h5>
 
         <div className="ui-container-button">
-          <button className="ui-aboutMe-button">About.me</button>
-          <button className="ui-resume-button">Resume</button>
+          <button className="ui-aboutMe-button">
+            <a href="https://www.w3schools.com/html/">About.me</a>
+          </button>
+          <button className="ui-resume-button">
+            <a href="https://www.w3schools.com/html/">Resume</a>
+          </button>
         </div>
 
         <div className="ui-container-logo">
           <div className="ui-container-github">
-            <img
-              src="githubplus.png"
-              alt="Github"
-              height="50%"
-              width="50%"
-            ></img>
+            <a href="https://github.com/Msgana">
+              <img
+                src="githubplus.png"
+                alt="Github"
+                height="50%"
+                width="50%"
+              ></img>
+            </a>
           </div>
           <div className="ui-container-linkedin">
-            <img
-              src="linkedin.svg"
-              alt="linkedin"
-              height="50%"
-              width="50%"
-            ></img>
+            <a href="https://www.linkedin.com/in/misgana-gebremariam">
+              <img
+                src="linkedin.svg"
+                alt="linkedin"
+                height="50%"
+                width="50%"
+              ></img>
+            </a>
           </div>
         </div>
       </div>
