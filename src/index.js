@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <div className="ui-container">
-        <img src={faker.image.avatar} alt="a person"></img>
+        <img src={faker.image.avatar()} alt="a person"></img>
         <h1>Misgana Gebremariam</h1>
         <h5>Computer Science</h5>
         <h4>Arizona State University</h4>
