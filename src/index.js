@@ -15,10 +15,10 @@ const App = () => {
 
         <div className="ui-container-button">
           <button className="ui-aboutMe-button">
-            <a href="https://www.w3schools.com/html/">About.me</a>
+            <a href="">About.me</a>
           </button>
           <button className="ui-resume-button">
-            <a href="https://www.w3schools.com/html/">Resume</a>
+            <a href="">Resume</a>
           </button>
         </div>
 
